@@ -138,13 +138,10 @@ class ReservationHandlers
             $succes = $this->service->saveReservation($processedData, $id);
             if($succes) {
                 $_SESSION['status'] = "Validé";
-                echo "<p>mdr c'est bon pelo mais cette fontionalité est loin d'être finie dsl</p>";
             } else {
-                "<p>Y'a un probleme pelo mais tqt la dev en burnout gere le coup<p>";
                 $_SESSION['status'] = "Erreur traitement";
             }
         } else {
-            echo "<p>devrait pas avoir de else mais on sait jamais<p>";
             $_SESSION['status'] = "Non_lance";
         }
     }
