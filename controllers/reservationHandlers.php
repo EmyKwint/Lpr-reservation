@@ -8,7 +8,8 @@ class ReservationHandlers
 {
     private $service;
 
-    public function __construct($reservationService) {
+    public function __construct($reservationService) 
+    {
         $this->service = $reservationService;
     }
 

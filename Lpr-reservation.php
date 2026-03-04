@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lpr-reservation
- * Description: Module WordPress permettant de gerer la partie admin et user de la reservation de table 
+ * Description: Module WordPress permettant de gerer la partie admin et user de la reservation de table
  * Version: 1.0
  * Author: Louise
  */
